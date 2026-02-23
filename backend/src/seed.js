@@ -270,7 +270,7 @@ const seed = async () => {
     },
     {
       title: 'Cairo & Pyramids Discovery',
-      description: 'Travel through ancient Egyptian history with visits to the Great Pyramids, the Sphinx, and world-renowned museums in Cairo.',
+      description: 'Travel through ancient Egyptian history with visits to the Great Pyramids, the Sphinx, and renowned museums in Cairo.',
       destination: 'Cairo',
       country: 'Egypt',
       duration: { days: 7, nights: 6 },
