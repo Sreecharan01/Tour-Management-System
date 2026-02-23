@@ -160,7 +160,7 @@ const seed = async () => {
     },
     {
       title: 'New York City Explorer',
-      description: 'Discover the city that never sleeps. From Times Square to Central Park, museums to Broadway shows — the ultimate NYC experience.',
+      description: 'Discover the city that never sleeps, day or night. From Times Square to Central Park, museums to Broadway shows — the ultimate NYC experience.',
       destination: 'New York City',
       country: 'USA',
       duration: { days: 5, nights: 4 },
