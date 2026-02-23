@@ -138,7 +138,7 @@ const seed = async () => {
     },
     {
       title: 'Maldives Paradise Escape',
-      description: 'Enjoy ultimate luxury in the crystal-clear waters of the Maldives. Private overwater bungalows, world-class snorkeling, and total serenity.',
+      description: 'Enjoy ultimate luxury in the crystal-clear waters of the Maldives. Private overwater bungalows, world-class snorkeling, and complete serenity.',
       destination: 'Malé Atoll',
       country: 'Maldives',
       duration: { days: 5, nights: 4 },
