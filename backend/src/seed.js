@@ -336,7 +336,7 @@ const seed = async () => {
     },
     {
       title: 'Petra & Jordan Highlights',
-      description: 'Visit the rose-red city of Petra, the dramatic Wadi Rum desert, and Jordan’s timeless heritage in one epic itinerary.',
+      description: 'Visit the rose-red city of Petra, the dramatic Wadi Rum desert, and Jordan’s timeless heritage in one unforgettable itinerary.',
       destination: 'Petra',
       country: 'Jordan',
       duration: { days: 7, nights: 6 },
