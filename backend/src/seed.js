@@ -116,7 +116,7 @@ const seed = async () => {
     },
     {
       title: 'Kyoto Cultural Immersion',
-      description: 'Explore ancient temples, zen gardens, and geisha districts in Japan\'s cultural capital. Enjoy tea ceremonies and authentic Japanese hospitality.',
+      description: 'Explore ancient temples, zen gardens, and geisha districts in Japan\'s cultural capital. Take part in tea ceremonies and authentic Japanese hospitality.',
       destination: 'Kyoto',
       country: 'Japan',
       duration: { days: 6, nights: 5 },
