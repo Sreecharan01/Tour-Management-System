@@ -45,7 +45,7 @@ const seed = async () => {
   const tours = await Tour.insertMany([
     {
       title: 'Amazing Bali Getaway',
-      description: 'Experience the magic of Bali with stunning temples, rice terraces, and pristine beaches. This carefully planned itinerary balances adventure, culture, and relaxation.',
+      description: 'Experience the magic of Bali with stunning temples, rice terraces, and pristine beaches. This well-planned itinerary balances adventure, culture, and relaxation.',
       destination: 'Bali',
       country: 'Indonesia',
       duration: { days: 7, nights: 6 },
