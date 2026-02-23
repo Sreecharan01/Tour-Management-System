@@ -314,7 +314,7 @@ const seed = async () => {
     },
     {
       title: 'Machu Picchu Trek Adventure',
-      description: 'Journey to Peru’s legendary Incan citadel through scenic mountain routes and ancient sites with expert local guides.',
+      description: 'Journey to Peru’s legendary Incan citadel through scenic mountain routes and ancient sites with experienced local guides.',
       destination: 'Machu Picchu',
       country: 'Peru',
       duration: { days: 8, nights: 7 },
