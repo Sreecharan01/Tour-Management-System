@@ -226,7 +226,7 @@ const seed = async () => {
     },
     {
       title: 'Dubai Luxury Escape',
-      description: 'Enjoy futuristic cityscapes, desert adventures, and luxury shopping in Dubai with curated experiences for comfort and excitement.',
+      description: 'Enjoy futuristic cityscapes, desert adventures, and luxury shopping in Dubai with curated experiences for comfort and adventure.',
       destination: 'Dubai',
       country: 'UAE',
       duration: { days: 5, nights: 4 },
