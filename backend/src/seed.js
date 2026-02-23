@@ -94,7 +94,7 @@ const seed = async () => {
     },
     {
       title: 'African Safari Experience',
-      description: 'Witness the Great Migration and explore the vast Serengeti. Encounter the Big Five in their natural habitat on this unforgettable safari.',
+      description: 'Witness the Great Migration and explore the vast Serengeti. Encounter the Big Five in their natural habitat on this remarkable safari.',
       destination: 'Serengeti',
       country: 'Tanzania',
       duration: { days: 10, nights: 9 },
