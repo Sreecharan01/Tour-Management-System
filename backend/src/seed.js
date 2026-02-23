@@ -72,7 +72,7 @@ const seed = async () => {
     },
     {
       title: 'Swiss Alps Adventure',
-      description: 'Explore the majestic Swiss Alps with world-class skiing, hiking, and breathtaking mountain scenery. An unforgettable alpine experience.',
+      description: 'Discover the majestic Swiss Alps with world-class skiing, hiking, and breathtaking mountain scenery. An unforgettable alpine experience.',
       destination: 'Interlaken',
       country: 'Switzerland',
       duration: { days: 8, nights: 7 },
