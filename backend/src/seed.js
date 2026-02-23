@@ -204,7 +204,7 @@ const seed = async () => {
     },
     {
       title: 'Rome Ancient Wonders',
-      description: 'Walk through the Eternal City and uncover legendary history at the Colosseum, Roman Forum, and Vatican City with expert local guides.',
+      description: 'Walk through the Eternal City and uncover legendary history at the Colosseum, Roman Forum, and Vatican City with knowledgeable local guides.',
       destination: 'Rome',
       country: 'Italy',
       duration: { days: 6, nights: 5 },
