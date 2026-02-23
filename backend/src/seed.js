@@ -292,7 +292,7 @@ const seed = async () => {
     },
     {
       title: 'Santorini Sunset Escape',
-      description: 'Relax in the stunning Greek islands with whitewashed villages, blue domes, dramatic cliffs, and unforgettable sunsets.',
+      description: 'Relax in the stunning Greek islands with whitewashed villages, blue domes, dramatic cliffs, and memorable sunsets.',
       destination: 'Santorini',
       country: 'Greece',
       duration: { days: 5, nights: 4 },
