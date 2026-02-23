@@ -248,7 +248,7 @@ const seed = async () => {
     },
     {
       title: 'London Royal Heritage Tour',
-      description: 'Explore London’s rich heritage with palace visits, river cruises, museums, and classic neighborhoods filled with character and history.',
+      description: 'Explore London’s rich heritage with palace visits, river cruises, museums, and classic neighborhoods rich in character and history.',
       destination: 'London',
       country: 'United Kingdom',
       duration: { days: 6, nights: 5 },
