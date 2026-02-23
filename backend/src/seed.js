@@ -358,7 +358,7 @@ const seed = async () => {
     },
     {
       title: 'Sydney Coastal Explorer',
-      description: 'Discover Sydney’s iconic harbor, beaches, and vibrant neighborhoods with the perfect blend of city energy and coastal relaxation.',
+      description: 'Discover Sydney’s iconic harbor, beaches, and vibrant neighborhoods with an ideal blend of city energy and coastal relaxation.',
       destination: 'Sydney',
       country: 'Australia',
       duration: { days: 6, nights: 5 },
