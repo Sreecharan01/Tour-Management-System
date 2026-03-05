@@ -11,6 +11,7 @@ A full-featured, production-ready Tour Package Management System built with the 
 - [REST API Endpoints](#rest-api-endpoints)
 - [JWT Authentication Flow](#jwt-authentication-flow)
 - [Setup & Installation](#setup--installation)
+- [Deployment (Render)](#deployment-render)
 - [Demo Accounts](#demo-accounts)
 - [Project Structure](#project-structure)
 
@@ -224,6 +225,49 @@ npm install
 npm run dev
 # App running on http://localhost:3000
 ```
+
+---
+
+## 🚀 Deployment (Render)
+
+### Backend Service (Web Service)
+
+Use these **exact** Render dashboard values:
+
+- **Environment**: `Node`
+- **Root Directory**: `backend`
+- **Build Command**: `npm install` *(or `npm ci`)*
+- **Start Command**: `npm start`
+
+Required backend environment variables:
+
+```env
+PORT=5000
+MONGODB_URI=<your-mongodb-connection-string>
+JWT_SECRET=<strong-random-secret>
+JWT_EXPIRE=7d
+NODE_ENV=production
+```
+
+> If your deploy log shows `Running build command 'npm'...`, your Build Command is incorrect.
+> Set it to `npm install` (or `npm ci`) and redeploy with **Clear build cache**.
+
+### Frontend (Optional on Render as Static Site)
+
+If you also deploy the frontend on Render:
+
+- **Service Type**: `Static Site`
+- **Root Directory**: `frontend`
+- **Build Command**: `npm install && npm run build`
+- **Publish Directory**: `dist`
+
+Required frontend environment variable:
+
+```env
+VITE_API_URL=https://<your-backend-service>.onrender.com/api
+```
+
+After setting `VITE_API_URL`, trigger a new frontend deploy.
 
 ---
 
